@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    .title {
+        padding: 1rem;
+    }
+    input{
+        margin: 1rem;
+        cursor: pointer;
+    }
+    .btn{
+        width: 115px;
+        height: 30px;
+        background-color: rgb(131, 131, 237);
+        border: 1px solid rgb(118, 118, 240);
+        border-radius: .2rem;
+        color: white;
+        cursor: pointer;
+    }
+    .textCount {
+        margin-top: 1rem;
+    }
+}
